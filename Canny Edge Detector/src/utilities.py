@@ -74,7 +74,7 @@ def threshold(img : np.ndarray, min_val : int, max_val : int):
             if strong[i, j]:
                 traverse_strong(i, j)
     
-    visited_strong =  strong 
+    visited_strong =  strong | visited_strong
     return visited_strong * 1
 
 # check the gradient direction and find 
