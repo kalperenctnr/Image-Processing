@@ -1,6 +1,8 @@
 {
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
     "python.analysis.extraPaths": [
         "./Color Classifier/Scripts"
-    ],
-    "terminal.integrated.env.windows": { "PYTHONPATH": "${workspaceFolder}" }
+    ]
 }
