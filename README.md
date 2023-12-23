@@ -10,3 +10,8 @@ Various Image Processing Applications
   - Morphological operations (e.g. opening, closing)
   - Connected Component Analysis (with UnionFind Algo.)
   - Otsu Thresholding
+- Color Classification with steps:
+  - Datasets
+  - Preprocessing
+  - Model Validation
+  - Testing Application
